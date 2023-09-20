@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-between;
+    background-color: #e3d5ca;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.styled-table {
+    margin: 0 50px;
+    padding: 10px 50px;
+    background-color: #f5ebe0;
+}
+
+.table-key {
+    font-size: 20px;
+    background-color: #d6ccc2;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    padding: 10px 20px;
+    border-radius: 30%;
+}
+
+.username {
+    width: 100px;
+    text-align: center;
+    background-color: #fefae0;
+    padding: 10px 20px;
+    border-radius: 500px;
+}
+
+.text {
+    padding: 10px 20px;
+    background-color: #fefae0;
+    border-radius: 40%;
+}
+
+.img-btn {
+    display: block;
+    text-align: center;
+}
+
+#pf {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-container {
+    text-align: center;
+}

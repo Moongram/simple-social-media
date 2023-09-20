@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lily Gao">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <header class="header">
+      <h2>Profile Page</h2>
+      <h3><a class="main" href="main.html">Main</a></h3>
+    </header>
+    <table class="styled-table" id="pf">
+        <thead>
+        <tr class="table-key">
+            <th>Key</th>
+            <th>Input</th>
+            <th>Value</th>
+            <th>Message</th>
+        </tr>
+        </thead>
+        <tr>
+            <td class="key">Display Name</td>
+            <td><input type="text" class="field" id="name"></td>
+            <td class="hc" id="dis-name">Lily Gao</td>
+            <td id="msg-name"></td>
+        </tr>
+        <tr>
+            <td class="key">Email Address</td>
+            <td><input type="email" class="field" id="email"></td>
+            <td class="hc" id="dis-email">qg8@rice.edu</td>
+            <td id="msg-email"></td>
+        </tr>
+        <tr>
+            <td class="key">Phone Number</td>
+            <td><input type="tel" class="field" id="phone"></td>
+            <td class="hc" id="dis-phone">123-123-1234</td>
+            <td id="msg-phone"></td>
+        </tr>
+        <tr>
+            <td class="key">Zip Code</td>
+            <td><input type="text" class="field" id="zip"></td>
+            <td class="hc" id="dis-zip">77005</td>
+            <td id="msg-zip"></td>
+        </tr>
+        <tr>
+            <td class="key">Password</td>
+            <td><input type="text" class="field" id="password"></td>
+            <td class="hc" id="dis-password">***</td>
+            <td id="msg-password"></td>
+        </tr>
+        <tr>
+            <td class="key">Password Confirmation</td>
+            <td><input type="text" class="field" id="confirm"></td>
+            <td class="hc" id="dis-confirm">***</td>
+            <td id="msg-confirm"></td>
+        </tr>
+    </table>
+    <div class="btn-container">
+        <button id="pf-btn">Update</button>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
